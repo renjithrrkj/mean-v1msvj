@@ -18,7 +18,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
     BrowserModule,
     HttpModule,
      RouterModule.forRoot([
-      { path: '', component: GraphComponent },
+      { path: 'graph', component: GraphComponent },
     ]),
     ChartsModule
     
