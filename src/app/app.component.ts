@@ -8,13 +8,6 @@ import { DataService } from './data.service';
 })
 export class AppComponent {
 
-  users: Array<any>;
-
-  constructor(private _dataService: DataService) {
-
-    this._dataService.getData()
-      .subscribe(res => this.users = res);
-
-  }
+  
 
 }

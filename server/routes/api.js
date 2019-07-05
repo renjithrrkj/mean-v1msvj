@@ -21,9 +21,29 @@ const sendError = (err, res) => {
 
 // Response handling
 let response = {
-    status: 200,
-    data: [],
-    message: null
+  _id:{
+  type:Object},
+ RunId:{
+type:String},
+StartTime
+:{
+type:int64},
+TestScript
+:{
+type:String},
+TestCaseID
+:
+{type:String},
+Status
+:{type :int64}
+,
+TimeElapsed
+:{
+tyoe:int64},
+hostname
+:{type:
+String}
+    
 };
 
 // Get users
@@ -32,7 +52,7 @@ router.get('/data', (req, res) => {
         db.collection('tez')
             .find()
             .toArray()
-            .then((users) => {
+            .then((data) => {
                 
                 res.json(response);
             })
