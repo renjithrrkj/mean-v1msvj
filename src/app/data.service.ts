@@ -10,7 +10,7 @@ export class DataService {
 
   constructor(private _http: Http) { }
 
-  getUsers() {
+  getData() {
     return this._http.get("/api/users")
       .map(result => this.result = result.json().data);
   }

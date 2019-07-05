@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(private _dataService: DataService) {
 
-    this._dataService.getUsers()
+    this._dataService.getData()
       .subscribe(res => this.users = res);
 
   }
