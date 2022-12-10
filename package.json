@@ -19,7 +19,7 @@
     "chart.js": "2.8.0",
     "core-js": "2.6.9",
     "es6-shim": "0.35.5",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "mongodb": "3.2.7",
     "ng-charts": "1.0.0-alpha",
     "ng2-charts": "2.3.0",
